@@ -23,7 +23,7 @@ contrário disso:
 
 O primeiro dígito do CPF é 7
 """
-cpf = ('424.215.098-90').replace('.', '').replace('-', '')
+cpf = ('746.824.890-70').replace('.', '').replace('-', '')
 novo_cpf = cpf[:-2]
 multiplicador_1 = 10
 
