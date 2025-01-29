@@ -11,18 +11,24 @@ pop - apaga um item com a chave especificada (del)
 popitem - apaga o ultimo item adicionado
 update - atualiza um dicionario com outro
 '''
-import copy
 
-
-d1 = {
-    'c1': 1,
-    'c2': 2,
-    'c3': 3,
-    'l1': [0,1,2]
+p1 = {
+    'nome': 'Luiz',
+    'sobrenome': 'Miranda',
 }
-d2 = copy.deepcopy(d1)
-d2['l1'][1] = 999
+print(p1.get('nome'))
+print(p1.get('nome', 'Nao existe'))
 
-d2['c1'] = 1000
-print(d1)
-print(d2)
+ultima_chave = p1.popitem()
+print(ultima_chave)
+print(p1)
+
+
+p1.update({
+    'idade': 30,
+    'altura':1.70,
+})
+tupla = ('nome', 'novo valor'), ('idade', 30)
+
+
+print(p1)
