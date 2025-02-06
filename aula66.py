@@ -24,7 +24,7 @@ contrário disso:
 
 O segundo dígito do CPF é 0
 """
-cpf_para_validacao = ('746.824.890-70').replace('.', '').replace('-', '')
+cpf_para_validacao = ('386.588.048-79').replace('.', '').replace('-', '')
 nove_digitos = cpf_para_validacao[:-2]
 multiplicador_1 = 10
 
