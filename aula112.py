@@ -7,4 +7,4 @@ for i in range(10):
     importlib.reload(aula112_m) # recarrega o  modulo
     print(i)
 
-print('fim')
+print('fim!')
