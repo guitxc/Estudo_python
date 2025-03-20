@@ -7,11 +7,15 @@
 # # print(path,  sep='\n')
 
 # print(soma_do_modulo(1, 2))
-from aula113_package.modulo_b import fala_oi
+# from aula113_package.modulo_b import fala_oi
 
 
 
-print(__name__)
-# fala_oi()
+# print(__name__)
+# # fala_oi()
 
-# todas as importações tem que ser relativas ao main
+# # todas as importações tem que ser relativas ao main
+
+import aula113_package
+
+print(aula113_package.soma_do_modulo(1, 3))
